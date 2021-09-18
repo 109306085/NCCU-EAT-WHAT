@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="301.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <ImageView fitHeight="545.0" fitWidth="389.0" layoutX="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@nccueat6.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="1.0" layoutY="80.0" mnemonicParsing="false" onAction="#All" prefHeight="16.0" prefWidth="31.0" style="-fx-background-color: dimgrey; -fx-text-fill: white; -fx-font-size: 10;" text="ALL" />
+      <Button layoutX="35.0" layoutY="80.0" mnemonicParsing="false" onAction="#American" prefHeight="16.0" prefWidth="67.0" style="-fx-background-color: DIMGREY; -fx-text-fill: WHITE; -fx-font-size: 10;" text="AMERICAN" />
+      <Button layoutX="105.0" layoutY="80.0" mnemonicParsing="false" onAction="#Japanese" prefHeight="21.0" prefWidth="67.0" style="-fx-background-color: DIMGREY; -fx-font-size: 10; -fx-text-fill: WHITE;" text="JAPANESE" />
+      <Button layoutX="174.0" layoutY="80.0" mnemonicParsing="false" onAction="#Taiwanese" prefHeight="21.0" prefWidth="75.0" style="-fx-background-color: DIMGREY; -fx-text-fill: WHITE; -fx-font-size: 10;" text="TAIWANESE" />
+      <Button layoutX="251.0" layoutY="80.0" mnemonicParsing="false" onAction="#Other" prefHeight="16.0" style="-fx-background-color: DIMGREY; -fx-font-size: 10; -fx-text-fill: WHITE;" text="OTHERS" />
+      <Button layoutX="217.0" layoutY="462.0" mnemonicParsing="false" onAction="#switchToSearch" style="-fx-background-color: dimgrey; -fx-text-fill: white; -fx-font-family: serif; -fx-background-radius: 8;" text="Go Back !" />
+      <TextArea fx:id="getRestaurantTextArea" layoutX="16.0" layoutY="124.0" prefHeight="314.0" prefWidth="273.0" style="-fx-background-color: navajowhite;" />
+   </children>
+</AnchorPane>
